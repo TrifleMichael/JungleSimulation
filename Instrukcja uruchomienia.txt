@@ -1,0 +1,10 @@
+Aby uruchomić symulacje należy wykonać klasę Launcher.
+
+
+Informacje dotyczące kompilacji:
+
+Wymagana jest biblioteka Java FX, znajduje się ona w pliku z projektem.
+
+W przypadku błędu kompilacji proszę dodać poniższą linijkę (z pełną scieżką) jako argument maszyny wirtualnej.
+
+--module-path "Sciezka do projektu\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml
